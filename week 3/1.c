@@ -2,7 +2,7 @@
 // Function decclaration
 float calculateThirdAngle(float angle1, float angle2);
 
-int main() 
+int main()
 {
     float angle1, angle2;
 
@@ -24,7 +24,7 @@ int main()
 }
 
 // Function to calculate the third angle of a triangle
-float calculateThirdAngle(float angle1, float angle2) 
+float calculateThirdAngle(float angle1, float angle2)
 {
     // The sum of angles in a triangle is always 180 degrees
     float thirdAngle = 180 - angle1 - angle2;
